@@ -19,13 +19,37 @@
 <div id="right" class="column">
 
     <div class="top-right">
-		<a href="#user"><i class="fa fa-user-circle fa-fw"></i>Inventory</h3></a>
+		<a href="#user"><i class="fa fa-user-circle fa-fw"></i>Management</a>
 	</div>
 	
 	<div class="bottom">
 		<div class="main">
 		
-			<p> List of inventory here </p>
+			<p> Locations </p>
+
+			<form method="post" action=''>
+				<br>
+				<b> Input Locations </b>
+				<br> 
+				<br>
+
+				Location Name:
+					<input type="text" name="name"/>
+				<br>
+				<br>
+
+				Location Address:
+					<input type="text" name="address"/>
+				<br>
+				<br>	
+
+					<input type = "submit" value = "Submit" />
+					<input type = "reset" value = "Clear" />
+
+				<br>
+				<br>
+
+				</form>
 				
 		</div>
 	</div>
