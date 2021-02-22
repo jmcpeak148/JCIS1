@@ -7,19 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tells the browser to be responsive to screen width -->
 	
 	<title>Joes's Caribe Inventory</title>	
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Menu Icons -->
 </head>
 
 <body>
 	<?php
-		echo readfile("sidebar.inc");
+		readfile("menu/sidebar.inc");
 	?>
 	
 <div id="right" class="column">
 
-	<div class="top-right">
-		<a href="#user"><i class="fa fa-user-circle fa-fw"></i>Management</h3></a>
+    <div class="top-right">
+		<a href="#user"><i class="fa fa-user-circle fa-fw"></i>Management</a>
 	</div>
 	
 	<div class="bottom">
@@ -38,6 +38,7 @@
 			
 			<p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 			<p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+				
 				
 		</div>
 	</div>
